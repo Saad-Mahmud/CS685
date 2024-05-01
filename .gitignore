@@ -1,0 +1,6 @@
+logs/
+my_awesome_model/
+wandb/
+__pycache__/
+.ipynb_checkpoints/
+
