@@ -1,0 +1,35 @@
+state-spaces/mamba-1.4b-hf "inference time: " 27.009507082402706
+state-spaces/mamba-1.4b-hf "inference time: " 29.122677072882652
+state-spaces/mamba-1.4b-hf "inference time: " 29.972836142405868
+
+microsoft/phi-1_5 0
+microsoft/phi-1_5 "inference time: " 13.075646571815014
+microsoft/phi-1_5 "inference time: " 13.641538005322218
+microsoft/phi-1_5 "inference time: " 14.606324722990394
+microsoft/phi-1_5 0
+microsoft/phi-1_5 "inference time: " 13.454024493694305
+microsoft/phi-1_5 "inference time: " 14.63606534525752
+microsoft/phi-1_5 "inference time: " 15.383902005851269
+tri-ml/mamba-7b-rw 1
+tri-ml/mamba-7b-rw "inference time: " 37.17209082096815
+tri-ml/mamba-7b-rw "inference time: " 38.62534288097831
+tri-ml/mamba-7b-rw "inference time: " 40.0366493820274
+meta-llama/Llama-2-7b-hf 0
+meta-llama/Llama-2-7b-hf "inference time: " 24.363221414387226
+meta-llama/Llama-2-7b-hf "inference time: " 25.53701512515545
+meta-llama/Llama-2-7b-hf "inference time: " 26.7554790712893
+tri-ml/mamba-7b-rw 1
+tri-ml/mamba-7b-rw "inference time: " 40.69867024894889
+tri-ml/mamba-7b-rw "inference time: " 40.49152456364541
+tri-ml/mamba-7b-rw "inference time: " 37.81993274710008
+meta-llama/Llama-2-7b-hf 0
+meta-llama/Llama-2-7b-hf "inference time: " 28.183481347560885
+meta-llama/Llama-2-7b-hf 0
+meta-llama/Llama-2-7b-hf "inference time: " 26.772952449321746
+meta-llama/Meta-Llama-3-8B 0
+tri-ml/mamba-7b-rw 1
+tri-ml/mamba-7b-rw "inference time: " 42.12139000874439
+tri-ml/mamba-7b-rw "inference time: " 42.12911145867042
+tri-ml/mamba-7b-rw "inference time: " 38.43465500644275
+meta-llama/Llama-2-7b-hf 0
+meta-llama/Llama-2-7b-hf "inference time: " 28.726005184650422

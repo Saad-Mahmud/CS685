@@ -1,0 +1,10 @@
+microsoft/phi-1_5
+google/gemma-2b
+google/recurrentgemma-2b
+state-spaces/mamba-2.8b-hf
+stabilityai/stablelm-zephyr-3b
+tri-ml/mamba-7b-rw
+meta-llama/Llama-2-7b-hf
+meta-llama/Meta-Llama-3-8B
+mistralai/Mistral-7B-v0.1
+google/gemma-7b

@@ -4,7 +4,7 @@ from tokens import GLOBAL_TOKENS_MAP as TM, GLOBAL_TOKENS_RMAP as RM
 import pickle
 import random
 
-def make_addition(min_len = 1, max_len = 5, max_num = 22):
+def make_mul(min_len = 1, max_len = 5, max_num = 22):
     # Generate two random numbers
     p = np.array([i+0.0 for i in range(min_len,max_len+1)])
     p/=np.sum(p)
@@ -20,9 +20,9 @@ def make_addition(min_len = 1, max_len = 5, max_num = 22):
     num2_tokens = num2_str
     
     # Generate the prompt with tokens
-    prompt_tokens = '<prompt> ' + num1_tokens + ' + ' + num2_tokens+' </prompt>'  
+    prompt_tokens = '<prompt> ' + num1_tokens + ' * ' + num2_tokens+' </prompt>'  
     
-    answer = num1 + num2
+    answer = num1 * num2
     answer = str(answer).zfill(max_num)
     info = answer
     answer_tokens = ' <ans> ' + info + ' </ans>'
@@ -30,22 +30,21 @@ def make_addition(min_len = 1, max_len = 5, max_num = 22):
     print(len(texts))
     return {"texts": texts,"Q": prompt_tokens, 'A': info}
 
-def make_addition_dataset(name, nData=500, max_num = 22, min_len = 1, max_len = 5):
+def make_mul_dataset(name, nData=500, max_num = 22, min_len = 1, max_len = 5):
     dataset = {"texts": [],"Q": [], 'A': []}
     
     for _ in range(nData):
-        data_point = make_addition(min_len, max_len, max_num)
+        data_point = make_mul(min_len, max_len, max_num)
         dataset['texts'].append(data_point['texts'])
         dataset['A'].append(data_point['A'])
         dataset['Q'].append(data_point['Q'])
         
     # Save dataset to a pickle file
-    with open(f'addition_dataset_text{name}.pkl', 'wb') as f:
+    with open(f'mul_dataset_text{name}.pkl', 'wb') as f:
         pickle.dump(dataset, f)
 
 if __name__ == "__main__":
-    #make_addition_dataset('_Large', 10000, 42, 1, 25)  # Create a dataset with 500 examples
-    #make_addition_dataset(f'_Large_OOD', 10000, 42, 26, 40)  # Create a dataset with 500 examples
-    print(make_addition(1, 10, 12))
+    make_mul_dataset('_Large', 10000, 42, 1, 10)  # Create a dataset with 500 examples
+    make_mul_dataset(f'_Large_OOD', 10000, 42, 11, 20)  # Create a dataset with 500 examples
     
     

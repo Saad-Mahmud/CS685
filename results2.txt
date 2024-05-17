@@ -1,0 +1,162 @@
+state-spaces/mamba-1.4b-hf, dataset/addition_dataset_text_Small, Mamba1.4B_add_small, Mamba1.4B/add_small, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 128 8
+state-spaces/mamba-1.4b-hf dataset/addition_dataset_text_Small "train ACC: " (0.0, 128.0)
+state-spaces/mamba-1.4b-hf dataset/addition_dataset_text_Small "test ACC: " (0.0, 128.0)
+state-spaces/mamba-1.4b-hf dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+state-spaces/mamba-1.4b-hf dataset/addition_dataset_text_Small "inference time: " 2104.98934173584
+
+microsoft/phi-1_5, dataset/addition_dataset_text_Small, Phi1.5B_add_small, Phi1.5B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+microsoft/phi-1_5 dataset/addition_dataset_text_Small "train ACC: " (0.0, 128.0)
+microsoft/phi-1_5 dataset/addition_dataset_text_Small "test ACC: " (0.015, 128.0)
+microsoft/phi-1_5 dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+microsoft/phi-1_5 dataset/addition_dataset_text_Small "inference time: " 960.9416251182556
+google/gemma-2b, dataset/addition_dataset_text_Small, Gemma2B_add_small, Gemma2B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+google/gemma-2b dataset/addition_dataset_text_Small "train ACC: " (0.0, 128.0)
+google/gemma-2b dataset/addition_dataset_text_Small "test ACC: " (0.0, 128.0)
+google/gemma-2b dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+google/gemma-2b dataset/addition_dataset_text_Small "inference time: " 902.2440841197968
+google/recurrentgemma-2b, dataset/addition_dataset_text_Small, RGemma2B_add_small, RGemma2B/add_small, 0.0002, 8, ['q_proj', 'o_proj', 'k_proj', 'v_proj'], 128 8
+google/recurrentgemma-2b dataset/addition_dataset_text_Small "train ACC: " (0.055, 128.0)
+google/recurrentgemma-2b dataset/addition_dataset_text_Small "test ACC: " (0.045, 128.0)
+google/recurrentgemma-2b dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+google/recurrentgemma-2b dataset/addition_dataset_text_Small "inference time: " 1552.5688908100128
+state-spaces/mamba-2.8b-hf, dataset/addition_dataset_text_Small, Mamba2.8B_add_small, Mamba2.8B/add_small, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 128 8
+state-spaces/mamba-2.8b-hf dataset/addition_dataset_text_Small "train ACC: " (0.055, 128.0)
+state-spaces/mamba-2.8b-hf dataset/addition_dataset_text_Small "test ACC: " (0.09, 128.0)
+state-spaces/mamba-2.8b-hf dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+state-spaces/mamba-2.8b-hf dataset/addition_dataset_text_Small "inference time: " 2857.359314441681
+stabilityai/stablelm-zephyr-3b, dataset/addition_dataset_text_Small, Zephyr3B_add_small, Zephyr3B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+stabilityai/stablelm-zephyr-3b dataset/addition_dataset_text_Small "train ACC: " (0.0, 99.52)
+stabilityai/stablelm-zephyr-3b dataset/addition_dataset_text_Small "test ACC: " (0.0, 96.365)
+stabilityai/stablelm-zephyr-3b dataset/addition_dataset_text_Small "ood ACC: " (0.0, 107.41)
+stabilityai/stablelm-zephyr-3b dataset/addition_dataset_text_Small "inference time: " 976.635614156723
+tri-ml/mamba-7b-rw, dataset/addition_dataset_text_Small, Mamba7B_add_small, Mamba7B/add_small, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 128 8
+tri-ml/mamba-7b-rw dataset/addition_dataset_text_Small "train ACC: " (0.0, 128.0)
+tri-ml/mamba-7b-rw dataset/addition_dataset_text_Small "test ACC: " (0.0, 128.0)
+tri-ml/mamba-7b-rw dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+tri-ml/mamba-7b-rw dataset/addition_dataset_text_Small "inference time: " 3016.557586669922
+meta-llama/Llama-2-7b-hf, dataset/addition_dataset_text_Small, Llama7B_add_small, Llama7B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Small "train ACC: " (0.11, 128.0)
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Small "test ACC: " (0.11, 128.0)
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Small "ood ACC: " (0.0, 128.0)
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Small "inference time: " 1518.4574840068817
+meta-llama/Meta-Llama-3-8B, dataset/addition_dataset_text_Small, Llama8B_add_small, Llama8B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Small "train ACC: " (0.415, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Small "test ACC: " (0.42, 127.92)
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Small "ood ACC: " (0.28, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Small "inference time: " 1982.3626646995544
+mistralai/Mistral-7B-v0.1, dataset/addition_dataset_text_Small, Mistral7B_add_small, Mistral7B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Small "train ACC: " (0.36, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Small "test ACC: " (0.46, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Small "ood ACC: " (0.13, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Small "inference time: " 1467.3803136348724
+google/gemma-7b, dataset/addition_dataset_text_Small, Gemma7B_add_small, Gemma7B/add_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+google/gemma-7b dataset/addition_dataset_text_Small "train ACC: " (0.22, 128.0)
+google/gemma-7b dataset/addition_dataset_text_Small "test ACC: " (0.245, 128.0)
+google/gemma-7b dataset/addition_dataset_text_Small "ood ACC: " (0.255, 128.0)
+google/gemma-7b dataset/addition_dataset_text_Small "inference time: " 1410.9272363185883
+meta-llama/Llama-2-7b-hf, dataset/addition_dataset_text_Large, Llama7B_add_large, Llama7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+meta-llama/Meta-Llama-3-8B, dataset/addition_dataset_text_Large, Llama8B_add_large, Llama8B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+mistralai/Mistral-7B-v0.1, dataset/addition_dataset_text_Large, Mistral7B_add_large, Mistral7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+google/gemma-7b, dataset/addition_dataset_text_Large, Gemma7B_add_large, Gemma7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+google/recurrentgemma-2b, dataset/mul_dataset_text_Small, RGemma2B_mul_small, RGemma2B/mul_small, 0.0002, 8, ['q_proj', 'o_proj', 'k_proj', 'v_proj'], 128 8
+google/recurrentgemma-2b dataset/mul_dataset_text_Small "train ACC: " (0.005, 128.0)
+google/recurrentgemma-2b dataset/mul_dataset_text_Small "test ACC: " (0.01, 128.0)
+google/recurrentgemma-2b dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+google/recurrentgemma-2b dataset/mul_dataset_text_Small "inference time: " 1281.5236983299255
+state-spaces/mamba-2.8b-hf, dataset/mul_dataset_text_Small, Mamba2.8B_mul_small, Mamba2.8B/mul_small, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 128 8
+state-spaces/mamba-2.8b-hf dataset/mul_dataset_text_Small "train ACC: " (0.015, 128.0)
+state-spaces/mamba-2.8b-hf dataset/mul_dataset_text_Small "test ACC: " (0.01, 128.0)
+state-spaces/mamba-2.8b-hf dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+state-spaces/mamba-2.8b-hf dataset/mul_dataset_text_Small "inference time: " 2931.8683071136475
+meta-llama/Llama-2-7b-hf, dataset/mul_dataset_text_Small, Llama7B_mul_small, Llama7B/mul_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Small "train ACC: " (0.005, 128.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Small "test ACC: " (0.005, 128.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Small "inference time: " 1178.0566236972809
+meta-llama/Meta-Llama-3-8B, dataset/mul_dataset_text_Small, Llama8B_mul_small, Llama8B/mul_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Small "train ACC: " (0.02, 127.79)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Small "test ACC: " (0.02, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Small "inference time: " 1864.2909932136536
+mistralai/Mistral-7B-v0.1, dataset/mul_dataset_text_Small, Mistral7B_mul_small, Mistral7B/mul_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Small "train ACC: " (0.0, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Small "test ACC: " (0.0, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Small "inference time: " 1060.6307051181793
+google/gemma-7b, dataset/mul_dataset_text_Small, Gemma7B_mul_small, Gemma7B/mul_small, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 8
+google/gemma-7b dataset/mul_dataset_text_Small "train ACC: " (0.065, 128.0)
+google/gemma-7b dataset/mul_dataset_text_Small "test ACC: " (0.055, 128.0)
+google/gemma-7b dataset/mul_dataset_text_Small "ood ACC: " (0.0, 128.0)
+google/gemma-7b dataset/mul_dataset_text_Small "inference time: " 1250.1859657764435
+meta-llama/Llama-2-7b-hf, dataset/mul_dataset_text_Large, Llama7B_mul_large, Llama7B/mul_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Large "train ACC: " (0.0, 175.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Large "test ACC: " (0.0, 175.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Large "ood ACC: " (0.0, 175.0)
+meta-llama/Llama-2-7b-hf dataset/mul_dataset_text_Large "inference time: " 1371.0524475574493
+meta-llama/Meta-Llama-3-8B, dataset/mul_dataset_text_Large, Llama8B_mul_large, Llama8B/mul_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Large "train ACC: " (0.0, 175.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Large "test ACC: " (0.0, 175.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Large "ood ACC: " (0.0, 175.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_Large "inference time: " 2703.3084037303925
+mistralai/Mistral-7B-v0.1, dataset/mul_dataset_text_Large, Mistral7B_mul_large, Mistral7B/mul_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Large "train ACC: " (0.0, 175.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Large "test ACC: " (0.0, 175.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Large "ood ACC: " (0.0, 175.0)
+mistralai/Mistral-7B-v0.1 dataset/mul_dataset_text_Large "inference time: " 1324.9401316642761
+google/gemma-7b, dataset/mul_dataset_text_Large, Gemma7B_mul_large, Gemma7B/mul_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+google/gemma-7b dataset/mul_dataset_text_Large "train ACC: " (0.02, 175.0)
+google/gemma-7b dataset/mul_dataset_text_Large "test ACC: " (0.02, 175.0)
+google/gemma-7b dataset/mul_dataset_text_Large "ood ACC: " (0.0, 175.0)
+google/gemma-7b dataset/mul_dataset_text_Large "inference time: " 1346.9230608940125
+meta-llama/Meta-Llama-3-8B, dataset/mul_dataset_text_wCOT, Llama8B_wCOT, Llama8B/wCOT, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 450 2
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_wCOT "train ACC: " (0.0, 444.69)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_wCOT "test ACC: " (0.0, 442.77)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_wCOT "ood ACC: " (0.0, 440.58)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_wCOT "inference time: " 8070.084846258163
+meta-llama/Meta-Llama-3-8B, dataset/mul_dataset_text_woCOT, Llama8B_woCOT, Llama8B/woCOT, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 128 2
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_woCOT "train ACC: " (0.0, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_woCOT "test ACC: " (0.0, 128.0)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_woCOT "ood ACC: " (0.0, 127.945)
+meta-llama/Meta-Llama-3-8B dataset/mul_dataset_text_woCOT "inference time: " 2050.159562110901
+meta-llama/Llama-2-7b-hf, dataset/addition_dataset_text_Large, Llama7B_add_large, Llama7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+meta-llama/Meta-Llama-3-8B, dataset/addition_dataset_text_Large, Llama8B_add_large, Llama8B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+mistralai/Mistral-7B-v0.1, dataset/addition_dataset_text_Large, Mistral7B_add_large, Mistral7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+google/gemma-7b, dataset/addition_dataset_text_Large, Gemma7B_add_large, Gemma7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 8
+saaduddinM/Mamba7B_woCOT, dataset/mul_dataset_text_woCOT, Mamba7B_woCOT, Mamba7B/woCOT, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 128 2
+saaduddinM/Mamba7B_wCOT, dataset/mul_dataset_text_wCOT, Mamba7B_wCOT, Mamba7B/wCOT, 0.0002, 8, ['x_proj', 'embeddings', 'in_proj', 'out_proj'], 450 2
+tri-ml/mamba-7b-rw, dataset/mul_dataset_text_woCOT, saaduddinM/Mamba7B_woCOT, 128
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "train ACC: " (0.0, 22.045)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "test ACC: " (0.0, 21.705)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "ood ACC: " (0.0, 23.255)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "inference time: " 264.98490285873413
+tri-ml/mamba-7b-rw, dataset/mul_dataset_text_wCOT, saaduddinM/Mamba7B_wCOT, 450
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "train ACC: " (0.09, 22.1)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "test ACC: " (0.01, 21.8)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "ood ACC: " (0.005, 23.0)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "inference time: " 261.51583766937256
+tri-ml/mamba-7b-rw, dataset/mul_dataset_text_woCOT, saaduddinM/Mamba7B_woCOT, 128
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "train ACC: " (0.0, 21.665)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "test ACC: " (0.0, 22.06)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "ood ACC: " (0.0, 22.975)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_woCOT "inference time: " 258.73264241218567
+tri-ml/mamba-7b-rw, dataset/mul_dataset_text_wCOT, saaduddinM/Mamba7B_wCOT, 450
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "train ACC: " (0.185, 23.675)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "test ACC: " (0.01, 23.075)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "ood ACC: " (0.0, 23.72)
+tri-ml/mamba-7b-rw dataset/mul_dataset_text_wCOT "inference time: " 314.29133009910583
+meta-llama/Llama-2-7b-hf, dataset/addition_dataset_text_Large, Llama7B_add_large, Llama7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+meta-llama/Meta-Llama-3-8B, dataset/addition_dataset_text_Large, Llama8B_add_large, Llama8B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+mistralai/Mistral-7B-v0.1, dataset/addition_dataset_text_Large, Mistral7B_add_large, Mistral7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+google/gemma-7b, dataset/addition_dataset_text_Large, Gemma7B_add_large, Gemma7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+meta-llama/Llama-2-7b-hf, dataset/addition_dataset_text_Large, Llama7B_add_large, Llama7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Large "train ACC: " (0.0, 175.0)
+meta-llama/Llama-2-7b-hf dataset/addition_dataset_text_Large "inference time: " 433.0272436141968
+meta-llama/Meta-Llama-3-8B, dataset/addition_dataset_text_Large, Llama8B_add_large, Llama8B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Large "train ACC: " (0.045, 174.87)
+meta-llama/Meta-Llama-3-8B dataset/addition_dataset_text_Large "inference time: " 836.3253786563873
+mistralai/Mistral-7B-v0.1, dataset/addition_dataset_text_Large, Mistral7B_add_large, Mistral7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Large "train ACC: " (0.045, 175.0)
+mistralai/Mistral-7B-v0.1 dataset/addition_dataset_text_Large "inference time: " 400.96514534950256
+google/gemma-7b, dataset/addition_dataset_text_Large, Gemma7B_add_large, Gemma7B/add_large, 0.0002, 8, ['q_proj', 'up_pro_proj', 'k_proj', 'down_proj', 'v_proj'], 175 2
+google/gemma-7b dataset/addition_dataset_text_Large "train ACC: " (0.075, 175.0)
+google/gemma-7b dataset/addition_dataset_text_Large "inference time: " 417.0369498729706
