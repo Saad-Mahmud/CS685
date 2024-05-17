@@ -14,7 +14,7 @@ import re
 import sys
 import time
 
-login(token = "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")
+login(token = "#")
 
 def append_to_file(filename, data):
     """Append the given data to the specified file."""
