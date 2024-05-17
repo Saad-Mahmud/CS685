@@ -15,7 +15,7 @@ import sys
 import time
 from transformers.trainer_pt_utils import LengthGroupedSampler
 
-login(token = "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")
+login(token = "#")
 
 
 def append_to_file(filename, data):
