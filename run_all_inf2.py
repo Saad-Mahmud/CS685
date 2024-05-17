@@ -14,7 +14,7 @@ import re
 import sys
 import time
 
-login(token = "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")
+login(token = "#")
 
 from typing import Any, Dict, Optional, Tuple, Union
 from transformers import MambaConfig
